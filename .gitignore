@@ -1,0 +1,337 @@
+# ==========================
+
+# SISTEMA OPERACIONAL
+
+# ==========================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================
+
+# IDEs E EDITORES
+
+# ==========================
+
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ==========================
+
+# LOGS
+
+# ==========================
+
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+php_errors.log
+error_log
+
+# ==========================
+
+# AMBIENTE
+
+# ==========================
+
+.env
+.env.*
+!.env.example
+
+config.local.php
+database.local.php
+
+# ==========================
+
+# CONFIGURAÇÕES SENSÍVEIS
+
+# ==========================
+
+config/database.php
+config/mercadopago.php
+config/whatsapp.php
+config/email.php
+config/pix.php
+config/secrets.php
+
+# ==========================
+
+# CACHE
+
+# ==========================
+
+cache/
+tmp/
+temp/
+storage/cache/
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/views/
+
+# ==========================
+
+# SESSÕES
+
+# ==========================
+
+sessions/
+storage/sessions/
+
+# ==========================
+
+# UPLOADS
+
+# ==========================
+
+uploads/
+public/uploads/
+storage/uploads/
+
+# Permitir estrutura de pastas
+
+!uploads/.gitkeep
+!public/uploads/.gitkeep
+!storage/uploads/.gitkeep
+
+# ==========================
+
+# BACKUPS
+
+# ==========================
+
+backup/
+backups/
+*.sql
+*.sqlite
+*.bak
+*.backup
+*.dump
+
+# ==========================
+
+# BANCO DE DADOS LOCAL
+
+# ==========================
+
+database.sqlite
+db.sqlite
+*.db
+
+# ==========================
+
+# DEPENDÊNCIAS PHP
+
+# ==========================
+
+vendor/
+
+# Caso deseje versionar composer.lock remova a linha abaixo
+
+# composer.lock
+
+# ==========================
+
+# DEPENDÊNCIAS NODE
+
+# ==========================
+
+node_modules/
+npm-cache/
+.pnpm-store/
+
+# ==========================
+
+# BUILD FRONTEND
+
+# ==========================
+
+dist/
+build/
+public/build/
+public/dist/
+
+# ==========================
+
+# TESTES
+
+# ==========================
+
+coverage/
+.phpunit.result.cache
+
+# ==========================
+
+# ARQUIVOS TEMPORÁRIOS
+
+# ==========================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*.cache
+
+# ==========================
+
+# EXPORTAÇÕES
+
+# ==========================
+
+exports/
+reports/
+relatorios/
+pdfs/
+
+# ==========================
+
+# FILAS E JOBS
+
+# ==========================
+
+queue/
+jobs/
+worker.log
+
+# ==========================
+
+# MERCADO PAGO
+
+# ==========================
+
+mercadopago.log
+webhook.log
+pix.log
+
+# ==========================
+
+# CERTIFICADOS
+
+# ==========================
+
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# ==========================
+
+# EMAIL
+
+# ==========================
+
+mail.log
+smtp.log
+
+# ==========================
+
+# IMAGENS GERADAS
+
+# ==========================
+
+generated/
+thumbnails/
+watermarks/
+
+# ==========================
+
+# ARQUIVOS DE PRODUÇÃO
+
+# ==========================
+
+production/
+staging/
+homolog/
+
+# ==========================
+
+# ARQUIVOS ZIP
+
+# ==========================
+
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# ==========================
+
+# SEGURANÇA
+
+# ==========================
+
+secret.txt
+apikeys.txt
+credentials.json
+service-account.json
+
+# ==========================
+
+# APIS
+
+# ==========================
+
+firebase-adminsdk.json
+google-service-account.json
+
+# ==========================
+
+# LARAVEL (CASO USE ALGO DELE)
+
+# ==========================
+
+bootstrap/cache/*
+storage/*.key
+
+# ==========================
+
+# ARQUIVOS DE DEPLOY
+
+# ==========================
+
+.deploy/
+.deployer/
+.vercel/
+.netlify/
+
+# ==========================
+
+# DOCKER
+
+# ==========================
+
+docker-compose.override.yml
+docker-data/
+
+# ==========================
+
+# ARQUIVOS DE DEBUG
+
+# ==========================
+
+debug.log
+debug.txt
+trace.log
+
+# ==========================
+
+# GIT
+
+# ==========================
+
+*.orig
+*.rej
+
+# ==========================
+
+# MANTER ESTRUTURA
+
+# ==========================
+
+!.gitkeep
